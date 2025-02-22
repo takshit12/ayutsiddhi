@@ -1,9 +1,12 @@
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
+import { TextRotate, TextRotateRef } from "@/components/ui/text-rotate";
 
 const Index = () => {
+  const textRotateRef = useRef<TextRotateRef>(null);
+
   useEffect(() => {
     const observerCallback: IntersectionObserverCallback = (entries) => {
       entries.forEach(entry => {
@@ -42,9 +45,20 @@ const Index = () => {
             </div>
             <div className="flex-1 space-y-8 scroll-reveal" style={{transitionDelay: '0.2s'}}>
               <span className="text-coffee uppercase tracking-wider font-medium">Welcome to Luxury</span>
-              <h1 className="font-display text-5xl md:text-7xl text-stone leading-tight">
-                Explore the Wonders of Ayut Siddhi
-              </h1>
+              <TextRotate
+                ref={textRotateRef}
+                texts={[
+                  "Explore the Wonders",
+                  "Experience Luxury",
+                  "Discover Paradise",
+                  "Live Extraordinarily"
+                ]}
+                mainClassName="font-display text-5xl md:text-7xl text-stone leading-tight"
+                splitLevelClassName="overflow-hidden"
+                staggerDuration={0.02}
+                rotationInterval={3000}
+                transition={{ type: "spring", damping: 20, stiffness: 100 }}
+              />
               <p className="text-stone/80 text-lg max-w-lg">
                 Step into a world of luxury and serenity at Ayut Siddhi. Immerse yourself in the stunning natural surroundings,
                 indulge in the exceptional amenities.
