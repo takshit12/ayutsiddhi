@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { TextRotate, TextRotateRef } from "@/components/TextRotate";
 import { HandWrittenTitle } from "@/components/ui/hand-writing-text";
@@ -40,8 +39,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-[#faf7f2] overflow-hidden">
-      <Navbar />
-      
       {/* Hero Section */}
       <section className="min-h-screen pt-32 pb-40 relative">
         <div className="absolute inset-0 bg-gradient-to-b from-[#faf7f2] via-transparent to-[#faf7f2] opacity-90" />
@@ -70,7 +67,7 @@ const Index = () => {
                   "Create Memories"
                 ]}
                 mainClassName="font-display text-5xl sm:text-6xl lg:text-8xl text-[#2C1810] leading-tight text-center lg:text-left"
-                splitLevelClassName="overflow-hidden justify-center lg:justify-start"
+                splitLevelClassName="overflow-hidden"
                 staggerDuration={0.02}
                 rotationInterval={3000}
                 transition={{ type: "spring", damping: 20, stiffness: 100 }}
@@ -81,7 +78,7 @@ const Index = () => {
                 transition={{ delay: 0.6 }}
                 className="text-[#5C4434]/80 text-xl max-w-2xl mx-auto lg:mx-0"
               >
-                Welcome to Ayut Siddhi, your serene escape nestled in nature. Experience the warmth of a homestay, 
+                Welcome to Ayut Sidhhi, your serene escape nestled in nature. Experience the warmth of a homestay, 
                 the charm of farm life, and the peace of being away from the city bustle.
               </motion.p>
               <motion.div
@@ -89,9 +86,11 @@ const Index = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.8 }}
               >
-                <Button className="bg-[#8B7355] hover:bg-[#5C4434] text-white px-12 py-8 text-xl transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
-                  Book Now
-                </Button>
+                <a href="https://www.airbnb.com/l/3dDulKT8" target="_blank" rel="noopener noreferrer">
+                  <Button className="bg-[#8B7355] hover:bg-[#5C4434] text-white px-12 py-8 text-xl transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+                    Book Now
+                  </Button>
+                </a>
               </motion.div>
             </div>
 
@@ -178,12 +177,14 @@ const Index = () => {
                 isDarkBg={true}
               />
               <p className="text-[#D4C4B5]/90 text-lg max-w-lg mx-auto md:mx-0">
-                Ayut Siddhi is more than just a stay; it's your home in nature where every morning brings fresh air,
+                Ayut Sidhhi is more than just a stay; it's your home in nature where every morning brings fresh air,
                 every evening offers stunning sunsets, and every moment feels like a gentle escape from city life.
               </p>
-              <Button variant="outline" className="border-[#D4C4B5] text-[#D4C4B5] hover:bg-[#D4C4B5] hover:text-[#2C1810] px-8 py-6 text-lg transition-all duration-300 transform hover:-translate-y-1">
-                Plan Your Escape
-              </Button>
+              <a href="https://www.airbnb.com/l/3dDulKT8" target="_blank" rel="noopener noreferrer" className="inline-block mt-8">
+                <Button className="bg-[#8B7355] hover:bg-[#5C4434] text-white px-8 py-6 text-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl">
+                  Plan Your Escape
+                </Button>
+              </a>
             </motion.div>
             <motion.div 
               initial={{ opacity: 0, x: 30 }}
@@ -245,9 +246,11 @@ const Index = () => {
                 Nestled in the peaceful landscapes of Bassi, our farmhouse offers a perfect blend of rustic charm 
                 and modern comfort. Experience the joy of countryside living with all the comforts of home.
               </p>
-              <Button className="bg-[#8B7355] hover:bg-[#5C4434] text-white px-8 py-6 text-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl">
-                Book Your Stay
-              </Button>
+              <a href="https://www.airbnb.com/l/3dDulKT8" target="_blank" rel="noopener noreferrer" className="inline-block mt-8">
+                <Button className="bg-[#8B7355] hover:bg-[#5C4434] text-white px-8 py-6 text-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl">
+                  Book Your Stay
+                </Button>
+              </a>
             </motion.div>
           </div>
         </div>
@@ -373,6 +376,7 @@ const Index = () => {
           <HandWrittenTitle 
             title="Your Perfect Escape" 
             subtitle="Make Yourself at Home"
+            size="large"
           />
           
           <motion.div 
@@ -383,16 +387,19 @@ const Index = () => {
             className="max-w-3xl mx-auto space-y-10 scroll-reveal text-center"
           >
             <p className="text-[#5C4434]/80 text-lg">
-              At Ayut Siddhi, we believe in the simple pleasures of life. Wake up to birdsong, spend your days exploring 
+              At Ayut Sidhhi, we believe in the simple pleasures of life. Wake up to birdsong, spend your days exploring 
               the farm, enjoy home-cooked meals, and end your evenings under star-filled skies.
             </p>
             <motion.div
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 400 }}
+              className="mt-10"
             >
-              <Button className="bg-[#8B7355] hover:bg-[#5C4434] text-white px-10 py-7 text-lg transition-all duration-300 hover:shadow-xl">
-                Reserve Now
-              </Button>
+              <a href="https://www.airbnb.com/l/3dDulKT8" target="_blank" rel="noopener noreferrer">
+                <Button className="bg-[#8B7355] hover:bg-[#5C4434] text-white px-10 py-7 text-lg transition-all duration-300 hover:shadow-xl">
+                  Reserve Now
+                </Button>
+              </a>
             </motion.div>
           </motion.div>
         </div>

@@ -5,12 +5,14 @@ interface HandWrittenTitleProps {
     title?: string;
     subtitle?: string;
     isDarkBg?: boolean;
+    size?: 'default' | 'large';
 }
 
 function HandWrittenTitle({
     title = "Hand Written",
     subtitle = "Optional subtitle",
     isDarkBg = false,
+    size = 'default',
 }: HandWrittenTitleProps) {
     const draw = {
         hidden: { pathLength: 0, opacity: 0 },
@@ -23,6 +25,21 @@ function HandWrittenTitle({
             },
         },
     };
+
+    const defaultPath = `M 950 90 
+                         C 1250 300, 1050 480, 600 520
+                         C 250 520, 150 480, 150 300
+                         C 150 120, 350 80, 600 80
+                         C 850 80, 950 180, 950 180`;
+                         
+    const largePath = `M 1050 60 
+                       C 1450 300, 1250 550, 600 580 
+                       C -50 550, -200 400, 50 200 
+                       C 250 50, 400 20, 600 20 
+                       C 800 20, 1000 100, 1050 100 Z`;
+
+    const pathData = size === 'large' ? largePath : defaultPath;
+    const strokeW = size === 'large' ? 10 : 12;
 
     return (
         <div className="relative w-full max-w-4xl mx-auto py-24">
@@ -38,13 +55,9 @@ function HandWrittenTitle({
                 >
                     <title>KokonutUI</title>
                     <motion.path
-                        d="M 950 90 
-                           C 1250 300, 1050 480, 600 520
-                           C 250 520, 150 480, 150 300
-                           C 150 120, 350 80, 600 80
-                           C 850 80, 950 180, 950 180"
+                        d={pathData}
                         fill="none"
-                        strokeWidth="12"
+                        strokeWidth={strokeW}
                         stroke="currentColor"
                         strokeLinecap="round"
                         strokeLinejoin="round"
