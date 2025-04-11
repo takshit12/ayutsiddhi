@@ -6,7 +6,7 @@ import { Menu, X } from "lucide-react";
 
 export function Navbar() {
   const [logoText, setLogoText] = useState("AyutSidhhi");
-  const logoTexts = ["AyutSidhhi", "आयत सिद्धि"];
+  const logoTexts = ["AyutSidhhi", "आयुत सिद्धि"];
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
