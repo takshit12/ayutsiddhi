@@ -26,11 +26,11 @@ const About = () => {
   }, []);
 
   // Array of image sources and alt text for interspersing
-  const images = [
-    { src: "/lovable-uploads/IMG_1997 2.png", alt: "Ayut Sidhhi Exterior View" },
-    { src: "/lovable-uploads/IMG_2023 2.png", alt: "Ayut Sidhhi Villa Interior" },
-    { src: "/lovable-uploads/IMG_2054 2.png", alt: "Ayut Sidhhi Hill View" },
-    { src: "/lovable-uploads/IMG_1754 2.png", alt: "Ayut Sidhhi Yagya Shala" },
+  const galleryImages = [
+    { src: "/ayutsiddhi-uploads/IMG_1997 2.png", alt: "Ayut Sidhhi Exterior View" },
+    { src: "/ayutsiddhi-uploads/IMG_2023 2.png", alt: "Ayut Sidhhi Villa Interior" },
+    { src: "/ayutsiddhi-uploads/IMG_2054 2.png", alt: "Ayut Sidhhi Hill View" },
+    { src: "/ayutsiddhi-uploads/IMG_1754 2.png", alt: "Ayut Sidhhi Yagya Shala" },
   ];
 
   return (
@@ -67,7 +67,7 @@ const About = () => {
               className="w-full aspect-[16/10] md:aspect-[16/7] scroll-reveal"
             >
               <div className="rounded-[2rem] overflow-hidden shadow-xl h-full bg-white p-2">
-                <img src={images[0].src} alt={images[0].alt} loading="lazy" className="w-full h-full object-cover rounded-[1.5rem]" />
+                <img src={galleryImages[0].src} alt={galleryImages[0].alt} loading="lazy" className="w-full h-full object-cover rounded-[1.5rem]" />
               </div>
             </motion.div>
 
@@ -93,7 +93,7 @@ const About = () => {
               className="w-full aspect-[16/10] md:aspect-[16/7] scroll-reveal"
             >
               <div className="rounded-[2rem] overflow-hidden shadow-xl h-full bg-white p-2">
-                <img src={images[1].src} alt={images[1].alt} loading="lazy" className="w-full h-full object-cover rounded-[1.5rem]" />
+                <img src={galleryImages[1].src} alt={galleryImages[1].alt} loading="lazy" className="w-full h-full object-cover rounded-[1.5rem]" />
               </div>
             </motion.div>
 
@@ -119,7 +119,7 @@ const About = () => {
               className="w-full aspect-[16/10] md:aspect-[16/7] scroll-reveal"
             >
               <div className="rounded-[2rem] overflow-hidden shadow-xl h-full bg-white p-2">
-                <img src={images[2].src} alt={images[2].alt} loading="lazy" className="w-full h-full object-cover rounded-[1.5rem]" />
+                <img src={galleryImages[2].src} alt={galleryImages[2].alt} loading="lazy" className="w-full h-full object-cover rounded-[1.5rem]" />
               </div>
             </motion.div>
 
@@ -145,7 +145,7 @@ const About = () => {
               className="w-full aspect-[16/10] md:aspect-[16/7] scroll-reveal"
             >
               <div className="rounded-[2rem] overflow-hidden shadow-xl h-full bg-white p-2">
-                <img src={images[3].src} alt={images[3].alt} loading="lazy" className="w-full h-full object-cover rounded-[1.5rem]" />
+                <img src={galleryImages[3].src} alt={galleryImages[3].alt} loading="lazy" className="w-full h-full object-cover rounded-[1.5rem]" />
               </div>
             </motion.div>
           </div>

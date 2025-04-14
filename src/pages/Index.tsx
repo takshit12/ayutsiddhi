@@ -105,10 +105,10 @@ const Index = () => {
                   whileHover={{ scale: 1.03, y: -10 }}
                   transition={{ type: "spring", stiffness: 300 }}
                   className="rounded-[2rem] overflow-hidden shadow-2xl h-full cursor-pointer bg-white p-2"
-                  onClick={() => setSelectedImage({ url: "/lovable-uploads/IMG_2054 2.png", alt: "Luxury View" })}
+                  onClick={() => setSelectedImage({ url: "/ayutsiddhi-uploads/IMG_2054 2.png", alt: "Luxury View" })}
                 >
                   <img 
-                    src="/lovable-uploads/IMG_2054 2.png"
+                    src="/ayutsiddhi-uploads/IMG_2054 2.png"
                     alt="Luxury View"
                     className="w-full h-full object-cover rounded-[1.5rem]"
                   />
@@ -125,10 +125,10 @@ const Index = () => {
                   whileHover={{ scale: 1.03, y: -10 }}
                   transition={{ type: "spring", stiffness: 300 }}
                   className="rounded-[2rem] overflow-hidden shadow-2xl h-full cursor-pointer bg-white p-2"
-                  onClick={() => setSelectedImage({ url: "/lovable-uploads/IMG_2023 2.png", alt: "Luxury Interior" })}
+                  onClick={() => setSelectedImage({ url: "/ayutsiddhi-uploads/IMG_2023 2.png", alt: "Luxury Interior" })}
                 >
                   <img 
-                    src="/lovable-uploads/IMG_2023 2.png"
+                    src="/ayutsiddhi-uploads/IMG_2023 2.png"
                     alt="Luxury Interior"
                     className="w-full h-full object-cover rounded-[1.5rem]"
                   />
@@ -145,10 +145,10 @@ const Index = () => {
                   whileHover={{ scale: 1.03, y: -10 }}
                   transition={{ type: "spring", stiffness: 300 }}
                   className="rounded-[2rem] overflow-hidden shadow-2xl h-full cursor-pointer bg-white p-2"
-                  onClick={() => setSelectedImage({ url: "/lovable-uploads/IMG_1997 2.png", alt: "Luxury Exterior" })}
+                  onClick={() => setSelectedImage({ url: "/ayutsiddhi-uploads/IMG_1997 2.png", alt: "Luxury Exterior" })}
                 >
                   <img 
-                    src="/lovable-uploads/IMG_1997 2.png"
+                    src="/ayutsiddhi-uploads/IMG_1997 2.png"
                     alt="Luxury Exterior"
                     className="w-full h-full object-cover rounded-[1.5rem]"
                   />
@@ -194,10 +194,10 @@ const Index = () => {
               className="w-full md:w-2/5 aspect-[3/4] scroll-reveal"
             >
               <div className="rounded-2xl overflow-hidden shadow-2xl h-full transform hover:scale-105 transition-transform duration-500 cursor-pointer"
-                onClick={() => setSelectedImage({ url: "/lovable-uploads/IMG_2023 2.png", alt: "Luxury Interior" })}
+                onClick={() => setSelectedImage({ url: "/ayutsiddhi-uploads/IMG_2023 2.png", alt: "Luxury Interior" })}
               >
                 <img 
-                  src="/lovable-uploads/IMG_2023 2.png"
+                  src="/ayutsiddhi-uploads/IMG_2023 2.png"
                   alt="Luxury Interior"
                   loading="lazy"
                   className="w-full h-full object-cover"
@@ -221,10 +221,10 @@ const Index = () => {
               className="w-full md:w-2/5 aspect-[3/4] scroll-reveal order-2 md:order-1"
             >
               <div className="rounded-[2rem] overflow-hidden shadow-2xl h-full transform hover:scale-105 transition-transform duration-500 cursor-pointer bg-white p-2"
-                onClick={() => setSelectedImage({ url: "/lovable-uploads/IMG_1997 2.png", alt: "Luxury Exterior" })}
+                onClick={() => setSelectedImage({ url: "/ayutsiddhi-uploads/IMG_1997 2.png", alt: "Luxury Exterior" })}
               >
                 <img 
-                  src="/lovable-uploads/IMG_1997 2.png"
+                  src="/ayutsiddhi-uploads/IMG_1997 2.png"
                   alt="Luxury Exterior"
                   loading="lazy"
                   className="w-full h-full object-cover rounded-[1.5rem]"
@@ -285,10 +285,10 @@ const Index = () => {
                   <motion.div 
                     whileHover={{ scale: 1.05 }}
                     className="aspect-square relative overflow-hidden rounded-xl shadow-lg cursor-pointer"
-                    onClick={() => setSelectedImage({ url: "/lovable-uploads/IMG_1754 2.png", alt: "Luxury View" })}
+                    onClick={() => setSelectedImage({ url: "/ayutsiddhi-uploads/IMG_1754 2.png", alt: "Luxury View" })}
                   >
                     <img 
-                      src="/lovable-uploads/IMG_1754 2.png"
+                      src="/ayutsiddhi-uploads/IMG_1754 2.png"
                       alt="Luxury View"
                       className="object-cover w-full h-full transition-transform duration-500"
                     />
@@ -298,10 +298,10 @@ const Index = () => {
                   <motion.div 
                     whileHover={{ scale: 1.05 }}
                     className="aspect-square relative overflow-hidden rounded-xl shadow-lg cursor-pointer"
-                    onClick={() => setSelectedImage({ url: "/lovable-uploads/IMG_1756 2.png", alt: "Luxury View" })}
+                    onClick={() => setSelectedImage({ url: "/ayutsiddhi-uploads/IMG_1756 2.png", alt: "Luxury View" })}
                   >
                     <img 
-                      src="/lovable-uploads/IMG_1756 2.png"
+                      src="/ayutsiddhi-uploads/IMG_1756 2.png"
                       alt="Luxury View"
                       className="object-cover w-full h-full transition-transform duration-500"
                     />
@@ -311,10 +311,10 @@ const Index = () => {
                   <motion.div 
                     whileHover={{ scale: 1.05 }}
                     className="aspect-square relative overflow-hidden rounded-xl shadow-lg cursor-pointer"
-                    onClick={() => setSelectedImage({ url: "/lovable-uploads/IMG_1760 2.png", alt: "Luxury View" })}
+                    onClick={() => setSelectedImage({ url: "/ayutsiddhi-uploads/IMG_1760 2.png", alt: "Luxury View" })}
                   >
                     <img 
-                      src="/lovable-uploads/IMG_1760 2.png"
+                      src="/ayutsiddhi-uploads/IMG_1760 2.png"
                       alt="Luxury View"
                       className="object-cover w-full h-full transition-transform duration-500"
                     />
@@ -324,10 +324,10 @@ const Index = () => {
                   <motion.div 
                     whileHover={{ scale: 1.05 }}
                     className="aspect-square relative overflow-hidden rounded-xl shadow-lg cursor-pointer"
-                    onClick={() => setSelectedImage({ url: "/lovable-uploads/IMG_2013 2.png", alt: "Luxury View" })}
+                    onClick={() => setSelectedImage({ url: "/ayutsiddhi-uploads/IMG_2013 2.png", alt: "Luxury View" })}
                   >
                     <img 
-                      src="/lovable-uploads/IMG_2013 2.png"
+                      src="/ayutsiddhi-uploads/IMG_2013 2.png"
                       alt="Luxury View"
                       className="object-cover w-full h-full transition-transform duration-500"
                     />
@@ -337,10 +337,10 @@ const Index = () => {
                   <motion.div 
                     whileHover={{ scale: 1.05 }}
                     className="aspect-square relative overflow-hidden rounded-xl shadow-lg cursor-pointer"
-                    onClick={() => setSelectedImage({ url: "/lovable-uploads/IMG_2043 2.png", alt: "Luxury View" })}
+                    onClick={() => setSelectedImage({ url: "/ayutsiddhi-uploads/IMG_2043 2.png", alt: "Luxury View" })}
                   >
                     <img 
-                      src="/lovable-uploads/IMG_2043 2.png"
+                      src="/ayutsiddhi-uploads/IMG_2043 2.png"
                       alt="Luxury View"
                       className="object-cover w-full h-full transition-transform duration-500"
                     />
@@ -350,10 +350,10 @@ const Index = () => {
                   <motion.div 
                     whileHover={{ scale: 1.05 }}
                     className="aspect-square relative overflow-hidden rounded-xl shadow-lg cursor-pointer"
-                    onClick={() => setSelectedImage({ url: "/lovable-uploads/IMG_2052 2.png", alt: "Luxury View" })}
+                    onClick={() => setSelectedImage({ url: "/ayutsiddhi-uploads/IMG_2052 2.png", alt: "Luxury View" })}
                   >
                     <img 
-                      src="/lovable-uploads/IMG_2052 2.png"
+                      src="/ayutsiddhi-uploads/IMG_2052 2.png"
                       alt="Luxury View"
                       className="object-cover w-full h-full transition-transform duration-500"
                     />

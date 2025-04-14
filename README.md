@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to AyutSidhhi
 
 ## Project info
 
@@ -27,7 +27,7 @@ Follow these steps:
 git clone <YOUR_GIT_URL>
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd AyutSidhhi
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -62,8 +62,8 @@ This project is built with .
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/b7666731-607a-4096-83b9-316aea0194ee) and click on Share -> Publish.
+We recommend using a platform like Netlify or Vercel for deployment. Visit our docs for more details: [Deployment Guide](<link-to-your-deployment-guide-or-remove-this-line>)
 
 ## I want to use a custom domain - is that possible?
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+If you are using a platform like Netlify or Vercel, they typically provide instructions for setting up custom domains.
