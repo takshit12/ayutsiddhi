@@ -1,4 +1,4 @@
-# Welcome to AyutSidhhi
+# Welcome to Ayut Sidhhi
 
 ## Project info
 

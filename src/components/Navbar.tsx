@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { Menu, X } from "lucide-react";
 
 export function Navbar() {
-  const [logoText, setLogoText] = useState("AyutSidhhi");
+  const [logoText, setLogoText] = useState("Ayut Sidhhi");
   const logoTexts = ["Ayut Sidhhi", "आयुत सिद्धि"];
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 

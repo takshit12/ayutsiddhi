@@ -110,6 +110,8 @@ const Index = () => {
                   <img 
                     src="/ayutsiddhi-uploads/IMG_2054 2.png"
                     alt="Luxury View"
+                    width="4032"
+                    height="3024"
                     className="w-full h-full object-cover rounded-[1.5rem]"
                   />
                 </motion.div>
@@ -130,6 +132,8 @@ const Index = () => {
                   <img 
                     src="/ayutsiddhi-uploads/IMG_2023 2.png"
                     alt="Luxury Interior"
+                    width="4032"
+                    height="3024"
                     className="w-full h-full object-cover rounded-[1.5rem]"
                   />
                 </motion.div>
@@ -150,6 +154,8 @@ const Index = () => {
                   <img 
                     src="/ayutsiddhi-uploads/IMG_1997 2.png"
                     alt="Luxury Exterior"
+                    width="4032"
+                    height="3024"
                     className="w-full h-full object-cover rounded-[1.5rem]"
                   />
                 </motion.div>
@@ -200,6 +206,8 @@ const Index = () => {
                   src="/ayutsiddhi-uploads/IMG_2023 2.png"
                   alt="Luxury Interior"
                   loading="lazy"
+                  width="4032"
+                  height="3024"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -227,6 +235,8 @@ const Index = () => {
                   src="/ayutsiddhi-uploads/IMG_1997 2.png"
                   alt="Luxury Exterior"
                   loading="lazy"
+                  width="4032"
+                  height="3024"
                   className="w-full h-full object-cover rounded-[1.5rem]"
                 />
               </div>
